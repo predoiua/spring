@@ -31,7 +31,6 @@ public class InMemorySecurityConfiguration { // extends WebSecurityConfigurerAda
                 .and()
                 .withUser("admin").password("{noop}password").
                 roles("USER", "ADMIN")
-                .and()
-                .httpBas;
+                ;
     }
 }
